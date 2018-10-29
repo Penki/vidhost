@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route } from "react-router-dom";
 import './App.css';
-import Home from "./components/Home";
-// import { Home } from './containers';
+
+import Home from './componets/Home/Home.jsx';
 
 class App extends Component {
   render() {

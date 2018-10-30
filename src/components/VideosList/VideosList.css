@@ -1,0 +1,11 @@
+.videos_list {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  padding: 50px;
+  background: #222222;
+}
+/*# sourceMappingURL=VideosList.css.map */

@@ -1,22 +1,25 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import './Menu.css'
-export class Menu extends Component {
+export default class Menu extends Component {
   render() {
     return (
       <section className='menu'>
-        <ul>
-          <li>Categories</li>
-          <li>Videos</li>
-          <li>PHOTOS & GIFS</li>
-          <li>HOTTEST</li>
-          <li>STARS</li>
-        </ul>
-        <ul>
-          <li>GET PREMIUM</li>
-        </ul>
+        <nav>
+        <Link className="menu_item" to='/categories'>Categories</Link>
+        <Link className="menu_item" to='/videos'>Videos</Link>
+        <Link className="menu_item" to='/photos+gifs'>Photos gifs</Link>
+        <Link className="menu_item" to='/hottest'>Hottest</Link>
+        <Link className="menu_item" to='/stars'>Stars</Link>
+        </nav>
+      
+
+
+        <li>GET PREMIUM</li>
+
       </section>
     )
   }
 }
 
-export default Menu;
+
